@@ -26,9 +26,10 @@ p {
 }
 
 #wrapper {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
   padding: 20px;
+  flex-direction: row;
 }
 
 #thumbnails {
@@ -36,20 +37,14 @@ p {
   display: block;
   display: flex;
   flex-wrap: wrap;
-}
-
-#bigimage {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-  border: 5px solid hsl(209, 56%, 24%);
+  
 }
 
 .thumb {
   flex: 1;
   margin: 5px;
-  height: 200px;
-  width: 200px;
+  height: 430px;
+  width: 430px;
   display: block;
   cursor: pointer;
   object-fit: cover;
@@ -117,7 +112,9 @@ a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
-
+p{
+  font-size:20px;
+}
 .elementor-divider{
   border-top: 8px solid hsl(209, 56%, 24%);
   border-radius: 5px;
