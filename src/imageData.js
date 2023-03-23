@@ -43,6 +43,11 @@ const imagesArr = [
     class: 'thumb',
   
   },
+  {
+    img:"https://i.imgur.com/ltEWi4k.jpg",
+    alt: 'ktcn',
+    class: 'thumb',
+  }
 
 ];
 

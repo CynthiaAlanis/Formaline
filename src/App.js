@@ -62,9 +62,7 @@ export default function App() {
         {/* <BigImage imageURL={bigImage}/> */}
       </div>
       <br/>
-      <>
-      <ImageSlider slides={slideData}/>
-     </>
+     
      <br/>
       </div>
       <div class="divider"><span></span><span>About</span><span></span></div>
@@ -117,7 +115,11 @@ Fountain Valley, CA 92708
    <br/>
    <br/>
   </ul>
+  <br/>
 </div>
+    <div className="slider">
+      <ImageSlider slides={slideData}/>
+    </div>
     </div>
   );
 }
