@@ -1,5 +1,6 @@
 body {
-  background: url("https://media.istockphoto.com/id/1192737579/photo/white-carrara-marble-natural-light-surface-for-bathroom-or-kitchen-countertop.jpg?s=612x612&w=0&k=20&c=WM8n2bXSaHrh4Q0HVS_SnefxHwPnTIrPL_faADNTnB0=");
+  background: url("https://media.istockphoto.com/id/1284606452/vector/white-marble-texture-vector-background-useful-to-create-surface-effect-for-your-design.jpg?s=612x612&w=0&k=20&c=cDnBb0iTwG4C6XMG3omASvcFruRM2A8ze1FMXjfSfOM=");
+  background-size: cover;
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, Verdana;
@@ -188,6 +189,12 @@ p{
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .image {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 .right{
  position:absolute;

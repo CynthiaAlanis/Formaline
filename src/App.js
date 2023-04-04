@@ -117,9 +117,9 @@ Fountain Valley, CA 92708
   </ul>
   <br/>
 </div>
-    <div className="slider">
+    {/* <div className="slider">
       <ImageSlider slides={slideData}/>
-    </div>
+    </div> */}
     </div>
   );
 }
