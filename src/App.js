@@ -9,8 +9,8 @@ import imagesArr from "./imageData.js";
 // import BigImage from './BigImage'
 import SmallImage from './SmallImage'
 import frank from './frank.jpeg'
-import ImageSlider from "./slidebar/slider";
-import slideData from "./slidebar/slideData";
+// import ImageSlider from "./slidebar/slider";
+// import slideData from "./slidebar/slideData";
 
 export default function App() {
 
